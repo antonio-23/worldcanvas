@@ -1,0 +1,12 @@
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.svg h1 {
+  font-size: 5rem;
+  font-family: 'inika', serif;
+  margin-top: 1.5rem;
+  color: var(--color-light--1);
+}

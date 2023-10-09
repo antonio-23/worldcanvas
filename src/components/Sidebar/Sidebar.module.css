@@ -1,0 +1,17 @@
+.sidebar {
+  display: flex;
+  flex-basis: 56rem;
+  background-color: var(--color-dark--0);
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 5rem 3.5rem 5rem;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: var(--color-light--1);
+}

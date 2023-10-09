@@ -1,0 +1,48 @@
+.homepage {
+  height: 100vh;
+
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.7),
+      rgba(36, 42, 46, 0.7)
+    ),
+    url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2.5rem 5rem;
+}
+
+.homepage section {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.homepage h1 {
+  font-size: 4.5rem;
+  font-family: 'inika', serif;
+  line-height: 1.3;
+}
+
+.homepage h2 {
+  width: 90%;
+  font-size: 1.9rem;
+  color: var(--color-light--4);
+  margin-bottom: 2.5rem;
+}
+
+.ctaLink:link,
+.ctaLink:visited {
+  display: inline-block;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  border-radius: 15px 0px 15px 0px;
+}
