@@ -3,7 +3,7 @@ import styles from './AppNav.module.css';
 
 function AppNav() {
   return (
-    <div className={styles.appNav}>
+    <nav className={styles.appNav}>
       <ul>
         <li>
           <NavLink to='cities'>Cities</NavLink>
@@ -12,7 +12,7 @@ function AppNav() {
           <NavLink to='countries'>Countries</NavLink>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 
